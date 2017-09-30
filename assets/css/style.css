@@ -1,0 +1,169 @@
+/* Navbar */
+
+.navbar-default .navbar-brand {
+    background-color:#947694;
+    color: #fff;
+}
+
+
+/* General */
+
+body {
+  height: auto;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #777;
+  background: url("../images/background.png");
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  color: #947694;
+}
+
+h1 {
+  padding-bottom: 20px;
+  font-size: 30px;
+  line-height: 49px;
+  border-bottom: 3px solid #ddd;
+}
+
+#container-fullwidth {
+    overflow: auto;
+}
+
+/* Main Section */
+
+#maincontainer {
+    background-color: #fff;
+    margin-right: 50px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+    border: 1px solid #ddd;
+    /* height: 800px; */
+}
+
+.authimage {
+    margin-right: 20px;
+    padding-top: 10px;
+    width: 200px;
+    height: 300px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+#message {
+  height: 200px;
+}
+
+.btn btn-default {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  background: #947694;
+  border: 0 none;
+}
+
+h3 {
+    text-align: center;
+}
+
+.thumbnail {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .thumbnail:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+
+  .col-xs-6 {
+      padding-right: 0;
+      padding-left: 43px;
+  }
+  
+
+
+/* Sidebar */
+
+#sidebar {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    height: 200px;
+    padding: 0;
+}
+
+.connect {
+    text-align: center;
+}
+
+h2 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.social {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+  }
+  
+  .social:last-child {
+    margin-right: 0;
+  }
+  
+  .stack {
+    width: 62px;
+    height: 62px;
+    margin-top: 8px;
+    margin-right: 5px;
+    padding: 3px;
+    margin-right: 0;
+  }
+
+  
+/* footer */
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #947694;
+  }
