@@ -32,8 +32,8 @@ h1 {
   border-bottom: 3px solid #ddd;
 }
 
-#container-fullwidth {
-    overflow: auto;
+.container-fullwidth {
+  margin-bottom: 200px;
 }
 
 /* Main Section */
@@ -44,7 +44,6 @@ h1 {
     margin-left: 100px;
     padding-bottom: 20px;
     border: 1px solid #ddd;
-    /* height: 800px; */
 }
 
 .authimage {
